@@ -38,9 +38,7 @@ def check_index_validity(input_as_tuples):
         pos_a, pos_b = item[0] - 1, item[1] - 1
         passwd_char = item[2]
         passwd = item[3]
-        if passwd[pos_a] == passwd_char and passwd[pos_b] != passwd_char:
-            valid+=1
-        elif passwd[pos_b] == passwd_char and passwd[pos_a] != passwd_char:
+        if bool(passwd[pos_a] != passwd_char) ^ bool(passwd[pos_b] != passwd_char):
             valid+=1
         else:
             invalid+=1
