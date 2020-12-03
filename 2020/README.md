@@ -11,7 +11,7 @@ Binary search is a potential solution.
 * Validate pattern. Char at position must be present.
 RegEx is a potential solution.
 
-##3
+## 3
 * Find sum of chars at certain x positions. Counter will become larger than index.
 * Find product of sum of chars at certain x and y positions.
 Cycle is a potential solution.
