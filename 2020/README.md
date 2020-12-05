@@ -18,3 +18,7 @@ RegEx is a potential solution.
 * Find product of sum of chars at certain x and y positions.
 
 Cycle is a potential solution.
+
+## 4
+* Find if all substrings/keys are present. Splitting at \n\n made this easier.
+* Find if all substrings/keys are present and contain valid data. Pintman solution.
