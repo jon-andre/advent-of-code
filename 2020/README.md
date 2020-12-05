@@ -22,3 +22,5 @@ Cycle is a potential solution.
 ## 4
 * Find if all substrings/keys are present. Splitting at \n\n made this easier.
 * Find if all substrings/keys are present and contain valid data. Pintman solution.
+
+Looking at the task wihtout beer goggles is a potential solution.
